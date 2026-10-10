@@ -1,0 +1,10 @@
+PWA PENDATAAN BARANG
+
+1. Unggah seluruh isi folder ini ke hosting HTTPS statis, misalnya Netlify Drop atau GitHub Pages. Jangan unggah ZIP sebagai satu file pada layanan yang tidak otomatis mengekstraknya.
+2. Buka URL HTTPS hosting tersebut melalui Chrome Android.
+3. Ketuk menu tiga titik > Instal aplikasi / Tambahkan ke layar utama.
+4. PWA menampilkan Google Apps Script dalam iframe. Jika Google membatasi iframe/login, gunakan tautan 'Buka langsung' pada header. Mode layar penuh dan fitur cetak dari iframe bergantung browser serta izin Google.
+5. Google Apps Script dan data Spreadsheet tetap membutuhkan koneksi internet; service worker hanya menyimpan kerangka PWA.
+
+Web App asal:
+https://script.google.com/macros/s/AKfycbwI6IQ0bSMN6mwlNozWBDltUxnDb0DxPyoCXBN6ArkQpc7zAjF_0AbhRvoKK54oNJXL/exec
